@@ -1,7 +1,11 @@
 <img src="_imgs/schematic.png" width="200" height="200" align="right">
 
 # Multimodal Mixture-of-Experts VAE
-This repository contains the code for the framework in **Variational Mixture-of-Experts Autoencodersfor Multi-Modal Deep Generative Models** (see [paper](https://arxiv.org/pdf/1911.03393.pdf)).
+This repository contains the <b>modified code</b> for the framework in **Variational Mixture-of-Experts Autoencodersfor Multi-Modal Deep Generative Models** (see [paper](https://arxiv.org/pdf/1911.03393.pdf)).
+
+The code contains one more experiment (MNIST-Split) compare to the original paper, which can be accessed through the model named `mnist_split`
+
+The MNIST-Split experiment was conducted to support the results of the paper **Multimodal Variational Autoencoders for Semi-Supervised Learning: In Defense of Product-of-Experts**
 
 ## Requirements
 List of packages we used and the version we tested the model on (see also `requirements.txt`)

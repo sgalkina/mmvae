@@ -32,7 +32,7 @@ parser.add_argument('--llik_scaling', type=float, default=0.,
                          'multimodal setting, set as 0 to use default value')
 parser.add_argument('--batch-size', type=int, default=256, metavar='N',
                     help='batch size for data (default: 256)')
-parser.add_argument('--epochs', type=int, default=10, metavar='E',
+parser.add_argument('--epochs', type=int, default=200, metavar='E',
                     help='number of epochs to train (default: 10)')
 parser.add_argument('--latent-dim', type=int, default=20, metavar='L',
                     help='latent dimensionality (default: 20)')
